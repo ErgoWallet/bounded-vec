@@ -8,7 +8,7 @@ description = "Non-empty rust Vec wrapper with type guarantees on lower and uppe
 repository = "https://github.com/ergoplatform/bounded-vec"
 
 [lib]
-crate-type = ["cdylib", "rlib"]
+crate-type = ["rlib"]
 
 [dependencies]
 thiserror = "1"
